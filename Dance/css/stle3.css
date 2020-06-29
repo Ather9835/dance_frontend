@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+header{
+    display: flex;
+    height: 66px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: left;
+    margin-right: 22px;
+}
+.logo img{
+    width: 62px;
+    height: 62px;
+    margin: 2px 0px;
+    border: 0px solid red;
+    border-radius: 49px;
+}
+
+header p{
+    font-size: 34px;
+    color: #ccccc0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 37px 17px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.item{
+    width: 24px;
+    margin: 2px 3px;
+    border: 2px black solid;
+    height: 0.1px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 30px;
+    list-style: none
+}
+
+.sec{
+
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 300px;
+    margin: 32px auto;
+    
+}
+
+.center{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Alegreya', serif;
+}
+
+h1{
+    margin: 10px 5px;
+    font-size: 52px;
+    color: beige;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 72px;
+}
+
+.sec::before{
+    content: "";
+    position: absolute;
+    top: 66px;
+    left: 0;
+    height: 800px;
+    width: 100%;
+    background: url('../img/bg3.jpeg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px;
+    background:none;
+    padding: 0px 6px 0px 6px;
+}
+
+.card{
+
+    width: 22%;
+    height: 350px;
+    margin: 0px 24px;
+    background-color: beige;
+    padding: 24px 0px;
+    border: 0px solid red;
+    border-radius: 42px;
+    
+    
+}
+.card:hover{
+
+    box-shadow: 1px 2px 13px 8px white;
+
+}
+.card img{
+    width: 175px;
+    height: 175px;
+    display: block;
+    margin: auto;
+    border: 0px solid red;
+    border-radius: 132px;
+}
+
+.services p{
+
+    text-align: center;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 18px;
+    font-family: 'BioRhyme', serif;
+}
+.services h3{
+
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 24px;
+    font-family: 'BioRhyme', serif;
+}

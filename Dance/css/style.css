@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+body{
+
+    color: white;
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+.navbar::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 800px;
+    width: 100%;
+    background: url('../img/bg3.jpeg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0px 0px;
+}
+
+.navbar ul li{
+
+    margin: 17px 6px;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    padding: 9px 17px;
+    margin: 7px 9px;
+    font-size: 21px;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 72px;
+}
+.sec{
+
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 350px;
+    margin: 32px auto;
+    
+}
+
+.center{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Alegreya', serif;
+}
+
+h1{
+    margin: 10px 5px;
+    font-size: 52px;;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 6px;
+}
+
+.card{
+
+    width: 22%;
+    height: 234px;
+    margin: 0px 24px;
+    border-left: 9px white solid;
+    border-right: 3px white solid;
+    border-bottom: 2px white solid;
+    border-radius: 27px;
+}
+.card img{
+    width: 175px;
+    height: 189px;
+    display: block;
+    margin: auto;
+}
+
+.services p{
+
+    text-align: center;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 23px;
+    font-family: 'BioRhyme', serif;
+}
+
+.navbar ul li a:hover{
+
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+}
+
+header{
+
+    display: flex;
+}
+.logo{
+    margin: 2px 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width:50px;
+}
+.logo p{
+    font-size: 21px;
+}
+
+#contact input{
+
+    width:100%;
+    padding: 0.3rem;
+    font-size: 1.1rem;
+    border-radius: 9px;
+    border:1px black solid;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+form{
+    width: 40%;
+
+}
+
+label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+#contact-section::before{
+
+    content: "";
+    position: absolute;
+    height: 371px;
+    width: 100%;
+    background: url('../img/contact.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.5;
+}
+.form-group{
+    margin: 10px 0px;
+}
+
+.h-primary{
+
+    font-size: 2.8rem;
+    padding: 26px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+
+.center{
+
+    text-align: center;
+}
+
+button{
+    padding: 0px 11px;
+    display: block;
+    height: 25px;
+    margin: 13px auto;
+}
